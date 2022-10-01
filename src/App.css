@@ -32,3 +32,41 @@ body {
   height: 100%;
   width: 100%
 }
+
+
+
+
+
+
+
+
+
+.zoomImgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.859);
+}
+
+
+.zoomInImage {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.imgclosebtn {
+  position: absolute;
+  cursor: pointer;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 2.5rem;
+  color: white;
+}
