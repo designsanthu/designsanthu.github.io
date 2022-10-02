@@ -19,6 +19,9 @@
 
 .nav-item a.nav-link {
   padding: 18px 8px !important;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: rgb(151, 149, 149);
 }
 
 /* a.nav-link.active {
@@ -69,4 +72,28 @@ body {
   transform: translate(-50%, -30%);
   font-size: 2.5rem;
   color: white;
+}
+
+
+.my-name {
+  letter-spacing: 3px;
+}
+
+.myimage-about {
+  height: 500px;
+}
+
+.my-info p {
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.contact-container {
+  margin-top: 40px;
+}
+
+.contact-icon {
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
 }
