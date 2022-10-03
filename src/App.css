@@ -45,7 +45,7 @@ body {
 
 
 .zoomImgContainer {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -53,23 +53,39 @@ body {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.859);
+  z-index: 1;
 }
 
 
 .zoomInImage {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 50%;
   text-align: center;
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
 }
 
-.imgclosebtn {
-  position: absolute;
+.zoom-img {
+  width: 420px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.332);
+}
+
+/* .imgclosebtn {
+  position: fixed;
   cursor: pointer;
-  top: -30%;
+  top: -12%;
   left: 50%;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%);
+  font-size: 2.5rem;
+  color: white;
+} */
+
+.imgclosebtn {
+  /* position: fixed; */
+  cursor: pointer;
+  /* top: -12%;
+  left: 50%;
+  transform: translate(-50%); */
   font-size: 2.5rem;
   color: white;
 }
@@ -96,4 +112,45 @@ body {
   font-size: 25px;
   color: black;
   cursor: pointer;
+}
+
+.card {
+  border: 0;
+  border-radius: 0%;
+}
+
+/* extra small */
+@media (max-width: 576px) {
+  .card-img {
+    height: 100%;
+    object-fit: cover;
+    width: 320px;
+  }
+}
+
+/* small */
+@media (min-width: 576px) {
+  .card-img {
+    height: 320px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+}
+
+/* medium */
+@media (min-width: 768px) {
+  .card-img {
+    height: 320px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+}
+
+/* large */
+@media (min-width: 992px) {
+  .card-img {
+    height: 320px;
+    object-fit: cover;
+    cursor: pointer;
+  }
 }
