@@ -52,7 +52,7 @@ function App() {
       </nav>
 
       <div className='routes'>
-        <Routes>
+        <Routes basename='/home'>
           <Route path="" element={<Home />} />
           <Route path="/designs" element={<Designs />} />
           <Route path="/wedding-albums" element={<WeddingAlbums />} />
