@@ -12,7 +12,7 @@ function About(props) {
                 </div>
                 <div className='col-md-6 my-info p-5'>
                     <div className='m-auto' style={{ maxWidth: '330px' }}>
-                        <h4 className='my-name mb-4'>Sandeep</h4>
+                        <h4 className='my-name mb-4'>Santhu</h4>
                         <p>
                             Hello, I am a graphic designer. I design wedding invitations and album of weddings,
                             I will create social media posts such as CDP, Flyers, Logos, Banners.
@@ -26,7 +26,7 @@ function About(props) {
                         </p>
                         <h6>My creative mind is my strongest weapon</h6>
                         <div className='contact-container d-flex justify-content-evenly'>
-                            <a href="whatsapp:contact=917095216512@s.whatsapp.com" target='_blank'><FaWhatsapp className='contact-icon' /></a>
+                            <a href="https://wa.me/917095216512" target='_blank'><FaWhatsapp className='contact-icon' /></a>
                             <a href="http://instagram.com/_u/design_santhu/" target='_blank'><AiOutlineInstagram className='contact-icon' /></a>
                             <a href='mailto:designsanthu@gmail.com' target='_blank'><GoMail className='contact-icon' /></a>
                         </div>
