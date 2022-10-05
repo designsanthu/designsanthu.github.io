@@ -5,7 +5,7 @@ import designs from './designs.json'
 function Designs() {
     const [zoomImg, setImage] = useState("")
     return (
-        <div>
+        <div className='container'>
             <div className="d-none d-sm-block">
                 {
                     zoomImg !== "" &&

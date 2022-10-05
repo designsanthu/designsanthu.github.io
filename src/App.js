@@ -53,12 +53,12 @@ function App() {
 
       <div className='routes'>
         <Routes basename=''>
-          <Route path="" element={<Home />} />
-          <Route path="/designs" element={<Designs />} />
-          <Route path="/wedding-albums" element={<WeddingAlbums />} />
-          <Route path="/wedding-invitations" element={<WeddingInvitations />} />
-          <Route path="/photography" element={<Photography />} />
-          <Route path="/about" element={<About />} />
+          <Route exact path="" element={<Home />} />
+          <Route exact path="/designs" element={<Designs />} />
+          <Route exact path="/wedding-albums" element={<WeddingAlbums />} />
+          <Route exact path="/wedding-invitations" element={<WeddingInvitations />} />
+          <Route exact path="/photography" element={<Photography />} />
+          <Route exact path="/about" element={<About />} />
         </Routes>
       </div>
     </div>

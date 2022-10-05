@@ -1,5 +1,4 @@
 import React from 'react';
-import santhuimg from '../images/santhuimg.jpg'
 import { FaWhatsapp } from 'react-icons/fa'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { GoMail } from 'react-icons/go'
@@ -8,7 +7,7 @@ function About(props) {
         <div>
             <div className='row m-0 p-0'>
                 <div className='col-md-6 text-center p-5'>
-                    <img src={santhuimg} className='myimage-about' alt='...' />
+                    <img src='https://drive.google.com/uc?export=view&id=1hd7Eev7r41kgQrM3VFj7AHzQUnm0KyMb' className='myimage-about' alt='...' />
                 </div>
                 <div className='col-md-6 my-info p-5'>
                     <div className='m-auto' style={{ maxWidth: '330px' }}>
@@ -26,9 +25,9 @@ function About(props) {
                         </p>
                         <h6>My creative mind is my strongest weapon</h6>
                         <div className='contact-container d-flex justify-content-evenly'>
-                            <a href="https://wa.me/917095216512" target='_blank'><FaWhatsapp className='contact-icon' /></a>
-                            <a href="http://instagram.com/_u/design_santhu/" target='_blank'><AiOutlineInstagram className='contact-icon' /></a>
-                            <a href='mailto:designsanthu@gmail.com' target='_blank'><GoMail className='contact-icon' /></a>
+                            <a href="https://wa.me/917095216512" rel="noreferrer" target='_blank'><FaWhatsapp className='contact-icon' /></a>
+                            <a href="http://instagram.com/_u/design_santhu/" rel="noreferrer" target='_blank'><AiOutlineInstagram className='contact-icon' /></a>
+                            <a href='mailto:designsanthu@gmail.com' rel="noreferrer" target='_blank'><GoMail className='contact-icon' /></a>
                         </div>
                     </div>
                 </div>
